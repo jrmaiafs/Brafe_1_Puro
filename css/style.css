@@ -1,0 +1,106 @@
+/* Reset css */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, serif;
+  color: #252525;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Header */
+.menu {
+  background: #252525;
+  padding: 20px 0;
+}
+
+.menu_container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu_container::after,
+.menu_container::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a.menu_logo {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+
+.menu_nav {
+  float: right;
+  margin-right: 10px;
+}
+
+.menu_nav li {
+  display: inline-block;
+}
+
+.menu_nav a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.125rem;
+}
+/* Introdução */
+
+.intro {
+  background: url('../img/bg-intro.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.intro h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.intro h1::after {
+  content: '';
+  width: 20px;
+  height: 4px;
+  display: block;
+  background: #fff;
+  margin: 10px auto;
+}
+
+.intro p {
+  font-size: 1.125rem;
+  font-style: italic;
+}
+
